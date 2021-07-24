@@ -1,0 +1,69 @@
+#include <stdio.h>
+
+void	$name(void);
+
+/*
+int	testcase_is_true(void)
+{
+	int		fail_cond = 1;
+	char 	*test = "abcdefghijklmnopqrstuvwxyz";
+
+	while (*test != '\0')
+	{
+		if ($name(*test) == fail_cond)
+		{
+			printf("FAIL: $name(%c) => %d\n", *test, $name(*test) );
+			return (1);
+		}
+		test++;
+	}
+	printf(".");
+	return (0);
+}
+
+int	testcase_is_false(void)
+{
+	int		fail_cond = 0;
+	char	*test = "0123456789";
+
+	while (*test != '\0')
+	{
+		if ($name(*test) == fail_cond)
+		{
+			printf("FAIL: $name(%c) => %d\n", *test, $name(*test) );
+			return (1);
+		}
+		test++;
+	}
+	printf(".");
+	return (0);
+}
+
+int	generic_test_$name("FUNCTION_PARAMETER", int expect)
+{
+	if ($name("FUNCTION_PARAMETER") != expect)
+	{
+		printf("FAIL: $name(%s,%s,%lu) => %d | expected %d\n", s1, s2, nc, $name("FUNCTION_PARAMETER"), expect );
+		return (1);
+	}
+	printf(".");
+	return (0);
+}
+*/
+
+int	test_$name(void)
+{
+	int failed;
+
+	failed = 0;
+	printf("Test: $name\t");
+	printf("NO TESTS!!!");
+	//failed += testcase_is_true();
+	//failed += testcase_is_false();
+	//failed += generic_test_$name("FUNCTION_PARAMETER", int expect);
+	if (failed > 0)
+		printf(" %d Errors!\n", failed);
+	else
+		printf(" OK!\n");
+	return (failed);
+}

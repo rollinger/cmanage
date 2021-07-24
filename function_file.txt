@@ -1,0 +1,7 @@
+/*
+* Description
+*/
+void	$name(void)
+{
+	return ;
+}
